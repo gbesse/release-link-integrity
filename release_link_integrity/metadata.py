@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Vérifier les liens relatifs documentaires sur une révision figée', 'en': 'Check relative documentation links against a frozen revision', 'es': 'Comprobar enlaces documentales relativos en una revisión fija'}

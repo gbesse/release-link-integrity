@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "release-link-integrity"
+version = "0.1.0a1"
+description = "FR: Vérifier les liens relatifs documentaires sur une révision figée | EN: Check relative documentation links against a frozen revision | ES: Comprobar enlaces documentales relativos en una revisión fija"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+release-link-integrity = "release_link_integrity.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["release_link_integrity*"]
